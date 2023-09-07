@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Confirmacion_placa"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/placa"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_margin="20dp"
+        android:textColor="@color/negro"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Numero de placa:"
+            android:textSize="20sp"
+            android:textColor="#000"
+            />
+        <EditText
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:id="@+id/numeplaca"
+            android:textColor="#000"
+            android:gravity="bottom"
+            android:layout_marginLeft="20dp"
+
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@color/negro"
+        android:textColor="#fff"
+        android:text="aceptar"
+        android:id="@+id/aceptar"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:hint=""
+            android:textSize="18sp"
+            android:id="@+id/reserva"
+            android:textColor="#222"
+            android:gravity="bottom"
+            android:textAllCaps="true"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:hint=""
+            android:textSize="18sp"
+            android:id="@+id/star"
+            android:textColor="#222"
+            android:gravity="bottom"
+            android:textAllCaps="true"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:weightSum="2"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Iniciar Hora:"
+            android:textSize="20sp"
+            android:id="@+id/iniciar"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:enabled="false"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="ver Reserva"
+            android:textSize="18sp"
+            android:id="@+id/ver"
+            android:textColor="#222"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:enabled="false"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Confirmacion"
+    android:orientation="vertical"
+    android:id="@+id/llconfirmacion"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Confirmacion"
+        android:textAlignment="center"
+        android:textColor="@color/negro"
+        android:textSize="25sp"
+        android:layout_margin="30dp"
+        android:id="@+id/txtConfirmado"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        >
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Zona:"
+            android:textSize="23sp"
+            android:textColor="#000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="zona"
+            android:textSize="18sp"
+            android:id="@+id/zona"
+            android:textColor="#222"
+            android:gravity="bottom"
+            android:textAllCaps="true"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        >
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Calle:"
+            android:textSize="23sp"
+            android:textColor="#000"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="calle"
+            android:textColor="#222"
+            android:gravity="bottom"
+            android:textSize="18sp"
+            android:id="@+id/calle"
+            android:textAllCaps="true"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Numero:"
+            android:textColor="#000"
+            android:textSize="23sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="numero"
+            android:textColor="#222"
+            android:textSize="18sp"
+            android:textAllCaps="true"
+            android:id="@+id/numero"
+            android:gravity="bottom"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        >
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Fecha:"
+            android:textColor="#000"
+            android:textSize="23sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha"
+            android:textColor="#222"
+            android:textSize="18sp"
+            android:gravity="bottom"
+            android:textAllCaps="true"
+            android:id="@+id/fecha"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hora Inicio:"
+            android:textColor="#000"
+            android:textSize="23sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="inicio"
+            android:textColor="#222"
+            android:textSize="18sp"
+            android:gravity="bottom"
+            android:textAllCaps="true"
+            android:id="@+id/hora"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hora Fin:"
+            android:textSize="23sp"
+            android:textColor="#000"
+
+            />
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/fin"
+            android:textColor="#222"
+            android:gravity="bottom"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        >
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Placa:"
+            android:textSize="23sp"
+            android:textColor="#000"
+
+            />
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="1 Hora 5BS"
+            android:textColor="#222"
+            android:gravity="bottom"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:id="@+id/placa"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

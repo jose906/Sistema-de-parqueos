@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportarProblema"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Reportar_txt"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_margin="20dp"
+        />
+    
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/problema"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_margin="20dp"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/select_edit"
+        android:hint="@string/what"
+
+        android:drawablePadding="2dip"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/select_edit"
+
+        android:inputType="textMultiLine"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/inicio_botones"
+        android:text="@string/enviar"
+        android:textColor="#fff"
+        />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/solicitar"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/inicio_botones"
+        android:text="@string/solicitar1"
+        android:textColor="#fff"
+        android:id="@+id/btn_solicitar"
+        />
+
+
+
+</LinearLayout>

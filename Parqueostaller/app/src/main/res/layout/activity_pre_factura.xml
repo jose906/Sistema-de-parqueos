@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PreFactura"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Datos Factura"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="#000"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Factura numero: "
+                android:textSize="20sp"
+                android:textColor="#000"
+
+
+
+                />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="12938109"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Monto"
+                android:textSize="20dp"
+                android:textColor="#000"
+
+
+                />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="100bs"
+                android:id="@+id/FacturaMonto"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Razon social"
+                android:textSize="20dp"
+                android:textColor="#000"
+
+
+                />
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="@drawable/select_edit"
+                android:hint="@string/nombre"
+                android:textAlignment="center"
+                android:id="@+id/razonSocial"
+                android:drawableLeft="@drawable/registro_drawable"
+                android:drawablePadding="2dip"
+                android:paddingLeft="20sp"
+                android:paddingRight="20sp"
+                android:textColorHint="@color/inicio_secundario"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="NIT/CI"
+                android:textSize="20dp"
+                android:textColor="@color/inicio_principal"
+
+
+
+                />
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="@drawable/select_edit"
+                android:id="@+id/nit"
+                android:hint="NIT/CI"
+                android:textColorHint="@color/inicio_secundario"
+                android:textAlignment="center"
+                android:drawableLeft="@drawable/licencia_drawable"
+                android:drawablePadding="2dip"
+                android:paddingLeft="20sp"
+                android:paddingRight="20sp"
+
+                />
+
+        </LinearLayout>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="Generar"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/generar"
+            android:background="@drawable/inicio_botones"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Contolador_taller</string>
+    <string name="menu">Menu principal</string>
+    <string name="qr">Leer QR</string>
+    <string name="Confirmacion">Confirmacion</string>
+    <string name="placa">Placa</string>
+    <string name="reserva">Reserva manual</string>
+    <string name="fin">Hora de salida</string>
+    <string name="reservar">Reservar</string>
+
+</resources>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Confirmar_reserva">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmar reserva"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="25dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="Saldo:"
+                android:textSize="23sp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:textSize="18sp"
+                android:id="@+id/saldoreserva"
+                android:textColor="#222"
+                android:gravity="bottom"
+                android:textAllCaps="true"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="155dp"
+                android:layout_height="match_parent"
+                android:text="Costo reserva:"
+                android:textSize="23sp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:textSize="18sp"
+                android:id="@+id/costpreserva"
+                android:textColor="#222"
+                android:gravity="bottom"
+                android:textAllCaps="true"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="match_parent"
+                android:text="Saldo restante:"
+                android:textSize="23sp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:textSize="18sp"
+                android:id="@+id/nuevosaldo"
+                android:textColor="#222"
+                android:gravity="bottom"
+                android:textAllCaps="true"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="Tiempo de validez:"
+                android:textSize="23sp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="15 min"
+                android:textSize="18sp"
+
+                android:textColor="#222"
+                android:gravity="bottom"
+                android:textAllCaps="true"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:text="reservar"
+            android:id="@+id/confirmar"
+            android:textColor="#fff"
+            android:background="@drawable/inicio_botones"
+            />
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:text="cancelar"
+                android:id="@+id/cancelar"
+                android:background="@drawable/inicio_botones"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

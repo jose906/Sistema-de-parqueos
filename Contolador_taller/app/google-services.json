@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "331109847772",
+    "firebase_url": "https://parqueos-b95f8.firebaseio.com",
+    "project_id": "parqueos-b95f8",
+    "storage_bucket": "parqueos-b95f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331109847772:android:93dfb476e4a861e0be9a19",
+        "android_client_info": {
+          "package_name": "com.alcaldia.contolador_taller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331109847772-l9p5rd2rgt004om3ujl28mvbqpmk2jdi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxv-b4_voqjhbXkNelVTgAv4lRf5qSNWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331109847772-l9p5rd2rgt004om3ujl28mvbqpmk2jdi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331109847772:android:f848543ee74eac74be9a19",
+        "android_client_info": {
+          "package_name": "com.alcaldia.controlador"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331109847772-ndlfn1mn7gl5ss8u2srkcud1cp0b58lu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alcaldia.controlador",
+            "certificate_hash": "6ee6f4e3a11c2f64d38d7726f1fe49fc3dab620f"
+          }
+        },
+        {
+          "client_id": "331109847772-l9p5rd2rgt004om3ujl28mvbqpmk2jdi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxv-b4_voqjhbXkNelVTgAv4lRf5qSNWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331109847772-l9p5rd2rgt004om3ujl28mvbqpmk2jdi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331109847772:android:23a54478c85c8890be9a19",
+        "android_client_info": {
+          "package_name": "com.alcaldia.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331109847772-ufp93rq9iv72b5r1lmgrb03ma15dma9s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alcaldia.myapplication",
+            "certificate_hash": "6ee6f4e3a11c2f64d38d7726f1fe49fc3dab620f"
+          }
+        },
+        {
+          "client_id": "331109847772-l9p5rd2rgt004om3ujl28mvbqpmk2jdi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxv-b4_voqjhbXkNelVTgAv4lRf5qSNWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331109847772-l9p5rd2rgt004om3ujl28mvbqpmk2jdi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
